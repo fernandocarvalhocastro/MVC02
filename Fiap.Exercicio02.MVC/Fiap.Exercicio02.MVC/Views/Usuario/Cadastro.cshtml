@@ -1,0 +1,26 @@
+﻿@model Fiap.Exercicio02.MVC.Models.Usuario
+
+@{
+    ViewBag.Title = "Cadastro";
+}
+
+<h2>Cadastro</h2>
+
+<form method="post" action="~/Usuario/Resultado">
+    <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label for="nome">Idade:</label>
+        <input type="text" name="idade" id="idade" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label for="nome">E-mail:</label>
+        <input type="text" name="email" id="email" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Salvar" class="btn btn-primary"/>
+    </div>
+</form>
+
